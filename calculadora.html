@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Calculadora</title>
+        <style>
+        body {
+        font: normal 18pt Arial;
+        }
+         input {
+        font: normal 18pt Arial;
+        width: 150px;
+        }
+        div {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        }
+        </style>
+    </head>
+    <body>
+        <h1>Calculadora</h1>
+        <input type="number" id="txtn1" /> +
+        <input type="number" id="txtn2" />
+        <input type="button" value="Somar" onclick="somar()" />
+        <div id="res1">Resultado</div>
+               
+        <input type="number" id="num1s" /> -
+        <input type="number" id="num2s" />
+        <input type="button" value="Subtrair" onclick="subtrair()" />
+        <div id="res2">Resultado</div>
+               
+        <input type="number" id="num1m" /> X
+        <input type="number" id="num2m" />
+        <input type="button" value="Multiplicar" onclick="multiplicar()" />
+        <div id="res3">Resultado</div>
+               
+        <input type="number" id="num1d" /> /
+        <input type="number" id="num2d" />
+        <input type="button" value="Dividir" onclick="dividir()" />
+        <div id="res4">Resultado</div>
+               
+        <script type="text/javascript" src="calculadora.js"></script>
+                        
+    </body>
+</html>
